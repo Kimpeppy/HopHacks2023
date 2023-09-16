@@ -6,6 +6,7 @@ import {
 } from "react-router-dom"
 import Home from "./components/pages/Home"
 import Login from "./components/pages/Login"
+import Events from "./components/pages/Events"
 
 
 const App = () => {
@@ -24,6 +25,7 @@ const App = () => {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/login" element={<Login />} />
+        <Route path="/events" element={<Events />} />
         
       </Routes>
     </Router>
